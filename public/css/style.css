@@ -1,0 +1,40 @@
+
+h1 { margin-bottom:20px; }
+main { margin-bottom:200px; }
+
+textarea { overflow-y: scroll; }
+
+.login-form { max-width:600px; margin-top:10%; }
+.form-error-msg { display:block; clear:both; font-size:14px; }
+.err-input-group { margin:-10px 0 10px 50px; }
+.checkbox-input-group { padding-left:50px; }
+.side-nav { min-width:260px; }
+.support_post { padding:20px; }
+.support_post .avatar { width:64px; height:64px; }
+.support_comments .row { margin-top:40px; margin-bottom:40px; }
+.support_comments h4 { margin-bottom:-5px;  }
+.support_comments .comment-date { color:#777; }
+.support_comments .avatar { max-width:100px; height:auto;  }
+.form-control { color:#000; }
+.user-tbl img.avatar { width:48px; height:auto; }
+.user-tbl thead a { color:#000; border-bottom:1px dashed #000; }
+.user-tbl thead .fa { margin-left:5px; }
+#loader { display:none; }
+
+.evaluation-table thead th { vertical-align:top; }
+.evaluation-table td { vertical-align:middle; }
+
+.toast-top-right { margin-top:60px; }
+
+img { max-width:100%; height:auto; }
+
+.mdb-select li.optgroup span { background:#fee; border-bottom:1px solid #ddd; border-top:1px solid #ddd; }
+
+ul.radar-legend { text-align:left; }
+ul.radar-legend li { display:block; margin-right: 10px; margin-bottom:10px; }
+ul.radar-legend li span { padding: 5px 10px; color: #fff; }
+
+table .text-center { text-align:center; }
+.profile-competences-table td, .profile-competences-table th { font-size:13px; }
+
+.no-top-border-tbl tr:first-child td { border-top:none; }
