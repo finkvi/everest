@@ -39,4 +39,7 @@ return [
 	'CompetenceLevel' => 'Уровень компетенции',
 	
 	'ItemName' => 'Название',
+	
+	'Recomends' => 'Рекомендации сотрудников',
+	'MyRecomends' => 'Мои рекомендации',
 ];

@@ -181,7 +181,11 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('/task-complete/{task}', ['as'=>'task.complete', 'uses'=>'TaskController@complete']);
 	Route::get('/task-confirm/{task}', ['as'=>'task.confirm', 'uses'=>'TaskController@confirm']);
 
-
+	//Recomends
+	Route::get('/recomends', ['as'=>'recomend.index', 'uses'=>'RecomendController@index']);
+	Route::get('/recomend/store/{rec?}', ['as'=>'recomend.form', 'uses'=>'RecomendController@form']);
+	Route::put('/recomend/store', ['as'=>'recomend.store', 'uses'=>'RecomendController@store']);
+	Route::get('/recomend/delete/{rec?}', ['as'=>'recomend.delete', 'uses'=>'RecomendController@delete']);
 
 	Route::get('/home', 'HomeController@index');
 

@@ -13,6 +13,7 @@ use App\{User, Policies\UserPolicy};
 use App\{Competence, Policies\CompetencePolicy};
 use App\{SubCompetence, Policies\SubCompetencePolicy};
 use App\{Profile, Policies\ProfilePolicy};
+use App\{Recomend, Policies\RecomendPolicy};
 
 class AuthServiceProvider extends ServiceProvider
 {
@@ -31,6 +32,7 @@ class AuthServiceProvider extends ServiceProvider
         Competence::class => CompetencePolicy::class,
         SubCompetence::class => SubCompetencePolicy::class,
         Profile::class => ProfilePolicy::class,
+        Recomend::class => RecomendPolicy::class,
 
     ];
 
