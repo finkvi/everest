@@ -19,7 +19,7 @@ class RecomendController extends Controller
         }
         else 
         {
-            $recomends = Rec::where('user_id', $user()->id)
+            $recomends = Rec::where('user_id', $user->id)
                     ->orderBy('created_at', 'asc')
                     ->get();
         }  
@@ -33,10 +33,7 @@ class RecomendController extends Controller
     
     public function form(Rec $rec)
     {
-        //$this->authorize('update', $rec);
-
-        $this->authorize('mylist', $rec);
-        
+        if ($rec->id) $this->authorize('mylist', $rec);
     	return view('recomends.form',['rec'=>$rec]);
     }
     
