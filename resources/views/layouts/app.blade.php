@@ -20,6 +20,7 @@
     <link href="/css/mdb.min.css" rel="stylesheet">
 
     <link href="/css/jquery.auto-complete.css" rel="stylesheet">
+    <link href="/css/suggestions.css" rel="stylesheet">
 
     <!-- Your custom styles (optional) -->
     <link href="/css/style.css" rel="stylesheet">

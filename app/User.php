@@ -107,4 +107,14 @@ class User extends Authenticatable
     {
         return $this->hasMany('App\Salary');
     }
+    
+    public function recomends()
+    {
+        return $this->hasMany('App\Recomend');
+    }
+    
+    public function isSuperAdmin() 
+    {
+        return $this->admin == '2';    
+    }
 }

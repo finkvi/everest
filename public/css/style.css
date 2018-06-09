@@ -38,3 +38,7 @@ table .text-center { text-align:center; }
 .profile-competences-table td, .profile-competences-table th { font-size:13px; }
 
 .no-top-border-tbl tr:first-child td { border-top:none; }
+
+.recomends-input {
+    height: 45px;
+}
